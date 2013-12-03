@@ -5,8 +5,10 @@ VPNUP='vpnup.sh'
 VPNDOWN='vpndown.sh'
 VPNLOG='/tmp/autoddvpn.log'
 #PPTPSRVSUB=$(nvram get pptpd_client_srvsub)
-DLDIR='http://autoddvpn.googlecode.com/svn/trunk/'
-NCCMD='nc -w 10 autoddvpn.googlecode.com 80'
+#DLDIR='http://autoddvpn.googlecode.com/svn/trunk/'
+DLDIR='https://raw.github.com/bostoneboy/autoddwrt/master/'
+
+#NCCMD='nc -w 10 autoddvpn.googlecode.com 80'
 #CRONJOBS="* * * * * root /bin/sh /tmp/check.sh >> /tmp/last_check.log"
 PID=$$
 INFO="[INFO#${PID}]"

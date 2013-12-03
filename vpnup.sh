@@ -3554,6 +3554,10 @@ route add -net 223.254.0.0/16 gw $OLDGW
 route add -net 223.255.0.0/17 gw $OLDGW
 route add -net 223.255.236.0/22 gw $OLDGW
 route add -net 223.255.252.0/23 gw $OLDGW
+
+##custom route##
+route add -net 202.126.56.0/24 gw $OLDGW  ## rtsp.vdowowza.tvb.com
+
 ##### end batch route #####
 
 
